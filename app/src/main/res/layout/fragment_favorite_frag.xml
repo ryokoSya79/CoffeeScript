@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Favorite_frag"
+    android:background="@color/text_button">
+
+    <TextView
+        android:id="@+id/title_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/image_favorite"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/like_icon_not_like"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/title_not_wishlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It's time to find your \n taste in life )"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/button_color"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</FrameLayout>

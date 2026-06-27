@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart_frag"
+    android:background="@color/text_button">
+
+    <ImageView
+        android:id="@+id/icon_none_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/icon_image_non_order" />
+
+    <TextView
+        android:id="@+id/title_none_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maybe we should cheer up?"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/button_color"
+        android:textSize="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/title_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/title_my_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Order"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/title_have_item_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have "
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/title_have_item_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 items"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/button_color"
+        android:textSize="14dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginLeft="92dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/title_have_item_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" in your cart"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginLeft="153dp"
+        android:layout_gravity="left"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_item_products_cart"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="156dp"/>
+
+    <View
+        android:id="@+id/background_view"
+        android:layout_width="360dp"
+        android:layout_height="164dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="484dp"
+        android:background="@drawable/back_layout_items_stroke" />
+
+    <EditText
+        android:id="@+id/editText_promokod"
+        android:layout_width="218dp"
+        android:layout_height="40dp"
+        android:background="@drawable/promokod_edit_text"
+        android:ems="10"
+        android:fontFamily="@font/inter"
+        android:inputType="text"
+        android:paddingLeft="9dp"
+        android:hint="Enter Coupan Code here"
+        android:textColorHint="@color/text_button"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="14dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_apply_promokod"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:text="Apply"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:background="@drawable/apply_button_promokod"
+        android:layout_gravity="right"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="500dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@null"/>
+
+    <TextView
+        android:id="@+id/title_sub_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-total"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="@color/text_button"
+        android:textSize="12dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/title_shipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shipping"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="@color/text_button"
+        android:textSize="12dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/title_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="@color/text_button"
+        android:textSize="12dp"
+        android:layout_marginTop="617dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="left"/>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_1"
+        android:layout_marginTop="579dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_2"
+        android:layout_marginTop="603dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_3"
+        android:layout_marginTop="626dp"
+        android:layout_marginLeft="85dp"/>
+
+    <TextView
+        android:id="@+id/text_sub_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="@color/text_button"
+        android:textSize="13dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="330dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/text_shipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="@color/text_button"
+        android:textSize="13dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginLeft="330dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/text_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="@color/text_button"
+        android:textSize="13dp"
+        android:layout_marginTop="616dp"
+        android:layout_marginLeft="330dp"
+        android:layout_gravity="left"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_finalize_order"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:text="Finalize Order"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="662dp"
+        android:background="@drawable/border_border_button"/>
+
+
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_color">#CE9760</color>
+    <color name="text_button">#543A20</color>
+    <color name="background">#130C03</color>
+    <color name="text_edit">#828282</color>
+    <color name="back_edit">#0F1114</color>
+    <color name="none">#F5F5F5</color>
+    <color name="description">#39260B</color>
+    <color name="color_edit_card">#79543A20</color>
+    <color name="gost">#80FFFFFF</color>
+    <color name="black_gost">#8C000000</color>
+
+
+
+
+
+
+</resources>

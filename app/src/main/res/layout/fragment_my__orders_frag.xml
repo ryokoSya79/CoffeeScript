@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My_Orders_frag"
+    android:background="@color/white">
+    <View
+        android:id="@+id/background_view_order"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_gravity="top"
+        android:background="@drawable/back_button_top_setting" />
+
+    <ImageView
+        android:id="@+id/icon_none_order_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/icon_non_order_white" />
+
+    <TextView
+        android:id="@+id/title_none_order_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maybe we should cheer up?"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/button_color"
+        android:textSize="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/title_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Order"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/back_button_my_order"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back_button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="131dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Track_order_frag"
+    android:background="@color/text_button">
+
+    <TextView
+        android:id="@+id/title_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Order"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/back_button_track_order"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/track_order_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"/>
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_time_track_order"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/title_range_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estimated Delivery time"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="108dp"/>
+
+    <TextView
+        android:id="@+id/title_range_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5-10 min"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/button_color"
+        android:textSize="20dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginLeft="108dp"/>
+
+    <ImageView
+        android:id="@+id/deliver_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/track_order_icon_not_done"
+        android:layout_marginTop="456dp"
+        android:layout_marginLeft="102dp"/>
+
+    <ImageView
+        android:id="@+id/way_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/track_order_icon_not_done"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="102dp"/>
+
+    <ImageView
+        android:id="@+id/progress_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/track_order_icon_not_done"
+        android:layout_marginTop="614dp"
+        android:layout_marginLeft="102dp"/>
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/track_order_icon_done"
+        android:layout_marginTop="693dp"
+        android:layout_marginLeft="102dp"/>
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vertikale_line_trace_order"
+        android:layout_marginTop="492dp"
+        android:layout_marginLeft="119dp"/>
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vertikale_line_trace_order"
+        android:layout_marginTop="571dp"
+        android:layout_marginLeft="119dp"/>
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vertikale_line_trace_order"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="119dp"/>
+
+    <TextView
+        android:id="@+id/title_deliverd_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliverd"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="155dp"/>
+
+    <TextView
+        android:id="@+id/text_deliverd_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 march, 2024, 04:36 PM"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:layout_marginTop="479dp"
+        android:layout_marginLeft="155dp"/>
+
+    <TextView
+        android:id="@+id/title_way_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Your way"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginTop="534dp"
+        android:layout_marginLeft="155dp"/>
+
+    <TextView
+        android:id="@+id/text_way_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 march, 2024, 04:36 PM"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:layout_marginTop="558dp"
+        android:layout_marginLeft="155dp"/>
+
+
+    <TextView
+        android:id="@+id/title_progress_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Progress"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginTop="613dp"
+        android:layout_marginLeft="155dp"/>
+
+    <TextView
+        android:id="@+id/text_progress_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 march, 2024, 04:36 PM"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:layout_marginTop="637dp"
+        android:layout_marginLeft="155dp"/>
+
+    <TextView
+        android:id="@+id/title_placed_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order placed"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginTop="692dp"
+        android:layout_marginLeft="155dp"/>
+
+    <TextView
+        android:id="@+id/text_placed_track_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 march, 2024, 04:36 PM"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:layout_marginTop="716dp"
+        android:layout_marginLeft="155dp"/>
+
+
+
+</FrameLayout>

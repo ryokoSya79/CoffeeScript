@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078572122553",
+    "project_id": "coffescript-bec87",
+    "storage_bucket": "coffescript-bec87.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078572122553:android:50dd4bb184de87b4c4b668",
+        "android_client_info": {
+          "package_name": "com.example.coffescript"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYlNieRgTnxIx31My6mk-l-D6x5UxcI40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
